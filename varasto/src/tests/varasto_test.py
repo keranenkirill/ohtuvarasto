@@ -78,4 +78,4 @@ class TestVarasto(unittest.TestCase):
     def test_ota_varastosta_ei_voi_ottaa_negatiivista_maaraa(self):
         self.varasto.lisaa_varastoon(8)
         saatu_maara = self.varasto.ota_varastosta(-1)
-        self.assertAlmostEqual(saatu_maara, 0)
+        self.assertAlmostEqual(saatu_maara, 1)
