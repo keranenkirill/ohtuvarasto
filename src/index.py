@@ -1,7 +1,18 @@
+"""
+This module demonstrates the use of the `Varasto` 
+class by creating and manipulating
+warehouse objects for different products.
+"""
+
 from varasto import Varasto
 
 
 def main():
+    """
+    The main function to demonstrate the functionality of the Varasto class.
+    It creates instances of Varasto, performs operations,
+      and prints the results.
+    """
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
